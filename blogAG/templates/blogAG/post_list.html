@@ -19,5 +19,17 @@
         <li>pamietaj o div</li>
         </ul>
     </div>
+    {% comment %}
+    <p>Tutaj beda komentarze</p>
+    {% endcomment %}
+
+
+    {% for post in posts %}
+    <div>
+        <p>opublikowany post:{{ post.publish_date }}</p>
+        <h2><a href="">{{ post.title }}</a> </h2>
+        <em>{{ post.text }}</em>
+    </div>
+    {% endfor %}
 </body>
 </html>
