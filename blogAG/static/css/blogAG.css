@@ -1,0 +1,19 @@
+h1 a,h2 a{
+    color: #fcc603;
+}
+
+body {
+    padding-left:15px;
+    font-family: "Cascadia Code", sans-serif;
+}
+
+.page-header{
+    background-color: #C25100;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+
+}
+
+.data{
+    color:#828282;
+}
