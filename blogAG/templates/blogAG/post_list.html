@@ -7,6 +7,7 @@
             <p>opublikowany post:{{ post.publish_date }}</p>
             </div>
         <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a> </h2>
+            <img src="{{ post.image.url }}" alt="Obrazek test" width="100px">
         <em>{{ post.text }}</em>
         </div>
 {% endfor %}
