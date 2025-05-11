@@ -3,7 +3,7 @@ from django.shortcuts import render, get_object_or_404
 from django.utils import timezone
 from django.http import HttpResponseRedirect
 from django.urls import reverse_lazy
-from django.forms import ImgForm
+from blogAG.forms import ImgForm
 from django.views.generic import DetailView
 from django.views.generic import TemplateView
 
