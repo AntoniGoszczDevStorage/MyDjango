@@ -1,6 +1,8 @@
 from django import forms
 from .models import Post
-class ImgForm(forms.ModelForm):
+class PostForm(forms.ModelForm):
+
+    title = forms.CharField(help_text='maksymalnie 200 znakow')
     class Meta:
         model = Post
-        fields = ['image']
+        fields = ['image', 'text', 'title']
